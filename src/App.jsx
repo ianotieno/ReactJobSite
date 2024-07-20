@@ -1,11 +1,4 @@
-import React from 'react'
-
-function App() {
-  return (
-    <div>
-      App
-    </div>
-  )
-}
-
-export default App
+const App=()=>{
+  return <div className="text-50xl">App</div>
+};
+export default App;
