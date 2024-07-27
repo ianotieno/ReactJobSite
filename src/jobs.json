@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "c38c",
+      "title": " Database Administrator",
+      "type": "Part-Time",
+      "location": "Nairobi Ke",
+      "description": "The Database Administrator will be responsible for overseeing and maintaining our client’s database systems and safeguarding data integrity ensuring the security, efficiency, and availability of databases to meet the client’s data requirements.",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": "Softclans Technologies Limited",
+        "description": "Softclans Technologies Ltd is seeking a creative Software developer intern who can work with our software development team to achieve the company business goals with the responsibility of coding, innovative design and project management. This role is responsible for designing, coding and modifying systems, from layout to function and according ..",
+        "contactEmail": "careers@softclans.co.ke",
+        "contactPhone": "555-555-555"
+      }
     }
   ]
 }

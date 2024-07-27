@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const JobPage = ({deleteJob}) => {
-  
+
   const {id} =useParams();
   const job = useLoaderData();
   const navigate= useNavigate();
@@ -15,7 +15,9 @@ const JobPage = ({deleteJob}) => {
     const confirm= window.confirm("Are you sure you want to delete this listing ?")
     if (!confirm) return;
     deleteJob(jobId);
+    toast.success('Job deleted successfully');
     navigate('/jobs')
+    
   }
   //const [job,setJob]= useState(null);
   //const [loading, setLoading] = useState(true);
