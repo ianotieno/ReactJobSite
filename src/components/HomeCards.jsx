@@ -5,7 +5,7 @@ const HomeCards = () => {
   return (
     <section className="py-2">
       <div className="container-xl lg:container hw  m-auto md:grid-cols-3">
-        <div className="flex  justify-between p-1  rounded-lg ">
+        <div className="flex justify-between p-1 rounded-lg ">
           <Cards>
             <h2 className="text-2xl font-bold">For Developers</h2>
             <p className="mt-2 mb-4">
