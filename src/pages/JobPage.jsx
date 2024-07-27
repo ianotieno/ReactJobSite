@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom'
 const JobPage = () => {
   const {id} =useParams();
   const [job,setJob]= useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
     const fetchJob =async ()=>{
@@ -17,8 +18,8 @@ const JobPage = () => {
         setLoading(false);
       }
     }
-
-  })
+fetchJob();
+  }, [])
   return (
     <div>
       test
