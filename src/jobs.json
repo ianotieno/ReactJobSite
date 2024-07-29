@@ -82,6 +82,47 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "3194",
+      "title": "BRANCH ACCOUNTANT",
+      "type": "Full-Time",
+      "location": "Nairobi Ke",
+      "description": "Hand in Hand Eastern Africa (HiH EA) is an NGO registered in Kenya and is part of the Hand in Hand global network. The organization started operations in Kenya in October 2010 and is currently operating in 26 Field offices serving 34 out of 47 Counties in Kenya. HiH EA has so far mobilized, trained and is training over 354,858 members (80% women, 40% youth) who have created over 334,179 enterprises (30% eco-enterprises) and over 452,272 jobs on the Kenyan Programme.",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Hand in Hand Eastern Africa (HiH EA)",
+        "description": "The HiH EA enterprise development model is premised on the need to create sustainable income generating activities by addressing major challenges facing many small-scale farmers/entrepreneurs. The Hand in Hand approach sees job creation as a highly effective development tool where micro-entrepreneurs are key drivers for economic growth and poverty reduction.\n\nThe ultimate objective of HiH EA is to contribute to the reduction of poverty and of gender disparities that are endemic in Kenya. This will be achieved after a combination of measures, that taken together break down barriers and unlock the entrepreneurial potential of programme participants. This then gives them tools that enable them to access growing markets and thereby increase their incomes.\n\nHiH Eastern Africa perceives of the government’s focus on job creation as monumental and therefore strives to participate in this agenda with incomparable enthusiasm. It works through social mobilization and enterprise training in various communities to help these to discover their entrepreneurial talents and potential. This improves incomes and food sufficiency alleviating poverty.\n\nOur unique approach towards eradicating poverty in Eastern Africa encompasses four key strategies namely; Outreach Programs, Partnerships, Collaborations and Networking. These strategies aid in forming solid synergies with the organization’s partners and members.",
+        "contactEmail": "handinhand@gmail.com",
+        "contactPhone": "8888-888-8888"
+      }
+    }
+  ],
+  "application": [
+    {
+      "name": "Jane Doe",
+      "email": "janedoe@example.com",
+      "phone": "555-987-6543",
+      "resume": "path/to/resume.pdf",
+      "coverLetter": "I am very interested in the Senior React Dev position at NewTek Solutions. My extensive experience in front-end development, particularly with React, makes me an ideal candidate for this role. I look forward to the opportunity to contribute to your team.",
+      "portfolio": "http://janedoeportfolio.com"
+    },
+    {
+      "id": "b83a",
+      "name": "test",
+      "email": "iam@test",
+      "phone": "090999",
+      "coverLetter": "test",
+      "portfolio": ""
+    },
+    {
+      "id": "564a",
+      "name": "test",
+      "email": "test@gmail.com",
+      "phone": "0777",
+      "resume": {},
+      "coverLetter": "test",
+      "portfolio": "https://github.com/new"
     }
   ]
 }

@@ -29,7 +29,7 @@ const JobListings = ({ isHome = false }) => {
         <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
           Browse Jobs
         </h2>
-        <div className="flex grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {loading ? (<Spinner loading={loading}/>):(
             <>
              {jobs.map((job) => (
