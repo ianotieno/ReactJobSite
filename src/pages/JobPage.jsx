@@ -50,10 +50,10 @@ const JobPage = ({ deleteJob }) => {
         </div>
       </section>
 
-      <section className=" w-full bg-indigo-50">
-        <div className="container m-auto py-10 px-6">
+      <div className=" w-full bg-indigo-50">
+        <div className="m-auto py-10 w-full px-6">
           <div className="flex w-full gap-6">
-            <main className='flex flex-col w-[50%]'>
+            <main className='flex flex-col w-[60%]'>
               <div
                 className="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
               >
@@ -84,7 +84,7 @@ const JobPage = ({ deleteJob }) => {
               </div>
             </main>
 
-            <aside className='flex flex-col w-[50%]'>
+            <aside className='flex flex-col w-[40%]'>
 
               <div className="  bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-6">Company Info</h3>
@@ -132,7 +132,7 @@ const JobPage = ({ deleteJob }) => {
             </aside>
           </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }
