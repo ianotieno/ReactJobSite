@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const HomeCards = () => {
   return (
     <section className="py-2">
-      <div className="container-xl lg:container hw  m-auto md:grid-cols-3">
-        <div className="flex justify-between p-1 rounded-lg ">
+      <div className="container-xl lg:container  m-auto md:grid-cols-3">
+        <div className="flex justify-between p-4 mr-2 rounded-lg ">
           <Cards>
             <h2 className="text-2xl font-bold">For Developers</h2>
             <p className="mt-2 mb-4">
@@ -18,7 +18,7 @@ const HomeCards = () => {
               Browse Jobs
             </Link>
           </Cards>
-          <Cards bg="bg-indigo-100">
+          <Cards bg="bg-indigo-100 mr-2">
             <h2 className="text-2xl font-bold">For Employers</h2>
             <p className="mt-2 mb-4">
               List your job to find the perfect developer for the role

@@ -4,13 +4,21 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     extend: {
       fontFamily:['Roboto','sans-serif']
     },
-    gridTemplateColumns:{
-      '70/30':'70% 28%',
+   
+  
+     
+    screens: {
+      sm: "480px",
+      md: "897px",
+      lg: "976px",
+      xl: "1640px",
     },
+   
   },
   plugins: [],
 }
