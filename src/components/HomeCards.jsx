@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeCards = () => {
   return (
     <section className="py-2">
-      <div className="container-xl lg:container  m-auto md:grid-cols-3">
+      <div className="w-full  m-auto md:grid-cols-3 px-6">
         <div className="flex justify-between p-4 mr-2 rounded-lg ">
           <Cards>
             <h2 className="text-2xl font-bold">For Developers</h2>
